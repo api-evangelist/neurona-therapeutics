@@ -64,5 +64,14 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Neurona Therapeutics is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://forgeglobal.com/neurona-therapeutics_stock/
+Neurona Therapeutics is a clinical-stage biotherapeutics company in South San Francisco, California,
+developing allogeneic regenerative neural cell therapies for chronic disorders of the nervous system.
+Its lead candidate, NRTX-1001 (rezanecel), is an inhibitory interneuron cell therapy for drug-resistant
+mesial temporal lobe epilepsy. UCB S.A. completed its acquisition of Neurona on June 2, 2026.
+
+**No public API surface.** Contract discovery on 2026-08-26 probed the company's only host for OpenAPI,
+Swagger, GraphQL, MCP and A2A agent-card surfaces plus the full `/.well-known/` set; every path returned
+HTTP 404 against a hard-404 origin. This profile records that measured absence.
+
+- https://www.neuronatherapeutics.com/
+- https://forgeglobal.com/neurona-therapeutics_stock/ (secondary-market listing)

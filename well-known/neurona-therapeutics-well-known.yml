@@ -1,0 +1,33 @@
+generated: '2026-08-26'
+method: probed
+source: https://www.neuronatherapeutics.com/.well-known/
+note: >-
+  Every /.well-known/ path probed on the only host this company operates returned a hard HTTP 404
+  carrying the site's standard 10,315-byte error page. A negative control path
+  (/.well-known/this-path-should-not-exist-8f3a) returned the same 404, confirming the origin is not a
+  soft-404 / SPA catch-all and that these are genuine absences. Nothing was saved and NO WellKnown or
+  SecurityTxt pointer is emitted — this file records a measured absence, not a served surface.
+hit_count: 0
+hosts:
+- host: https://www.neuronatherapeutics.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/oauth-protected-resource
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
+soft_404_control:
+  path: /.well-known/this-path-should-not-exist-8f3a
+  status: 404
+  bytes: 10315

@@ -1,17 +1,32 @@
 aid: neurona-therapeutics
 name: Neurona Therapeutics
-description: 'Neurona Therapeutics is a company surfaced via the API Evangelist harvest backlog (source:
-  secondary-market) and added to the network as a stub for full-pipeline profiling.'
+description: >-
+  Neurona Therapeutics is a clinical-stage biotherapeutics company in South San Francisco, California,
+  developing allogeneic regenerative neural cell therapies that permanently integrate into neural
+  circuits to treat chronic disorders of the nervous system. Founded on nearly two decades of stem cell
+  research from the University of California, San Francisco, its lead candidate NRTX-1001 (rezanecel) is
+  an inhibitory interneuron cell therapy delivered as a single, minimally invasive dose for drug-resistant
+  mesial temporal lobe epilepsy, and is advancing through the NTE001 and NTE002 studies toward the Phase 3
+  EPIC trial. UCB completed its acquisition of Neurona on June 2, 2026. The company publishes no public
+  API, developer program, SDK, or machine-readable specification; its public surface is corporate and
+  clinical, not developer-facing.
 url: https://raw.githubusercontent.com/api-evangelist/neurona-therapeutics/refs/heads/main/apis.yml
+image: https://www.neuronatherapeutics.com/themes/default/images/logo_gray.png
 x-type: company
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
 specificationVersion: '0.20'
 created: '2026-08-26'
 modified: '2026-08-26'
 tags:
 - Company
+- Biotechnology
+- Pharmaceuticals
+- Cell Therapy
+- Regenerative Medicine
+- Neurology
+- Epilepsy
+- Clinical Trials
+- Life Sciences
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +34,65 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/neurona-therapeutics-domain-security.yml
 - type: Website
+  url: https://www.neuronatherapeutics.com/
+- type: About
+  url: https://www.neuronatherapeutics.com/about/
+- type: Technology
+  url: https://www.neuronatherapeutics.com/technology/
+- type: Pipeline
+  url: https://www.neuronatherapeutics.com/pipeline/
+- type: News
+  url: https://www.neuronatherapeutics.com/news/press-releases/
+- type: Careers
+  url: https://www.neuronatherapeutics.com/careers/
+- type: Contact
+  url: https://www.neuronatherapeutics.com/contact/
+- type: TermsOfService
+  url: https://www.neuronatherapeutics.com/terms-of-use/
+- type: PrivacyPolicy
+  url: https://www.neuronatherapeutics.com/privacy-policy/
+- type: ParentCompany
+  name: UCB S.A.
+  url: https://www.ucb.com
+  x-relationship: acquisition
+- type: ParentCompanyProfile
+  name: UCB in the API Evangelist network
+  url: https://github.com/api-evangelist/ucb
+- type: AcquisitionAnnouncement
+  name: UCB completes acquisition of Neurona Therapeutics (2026-06-02)
+  url: https://www.ucb.com/newsroom/press-releases/article/ucb-completes-acquisition-of-neurona-therapeutics-advancing-its-leadership-as-innovator-in-epilepsy-through-regenerative-science
+- type: SecondaryMarketListing
+  name: Forge Global private-market listing
   url: https://forgeglobal.com/neurona-therapeutics_stock/
+- type: Plans
+  url: plans/neurona-therapeutics-plans-pricing.yml
+- type: RateLimits
+  url: rate-limits/neurona-therapeutics-rate-limits.yml
+- type: LLMsTxt
+  url: llms/neurona-therapeutics-llms.txt
+
+x-enrichment:
+  date: '2026-08-26'
+  status: minimal
+  artifacts_added: 5
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: not-a-software-company
+  detail: >-
+    Neurona Therapeutics is a clinical-stage cell-therapy biotech whose product is an injected neural
+    cell therapy (NRTX-1001); its corporate site has no developer, API, or data section at all and
+    every contract-discovery path probed on www.neuronatherapeutics.com returned a hard 404.
+  evidence:
+  - url: https://www.neuronatherapeutics.com/openapi.json
+    status: 404
+  - url: https://www.neuronatherapeutics.com/.well-known/agent-card.json
+    status: 404
+  - url: https://www.neuronatherapeutics.com/graphql
+    status: 404
+  - url: https://www.neuronatherapeutics.com/
+    status: 200
+  checked: '2026-08-26'

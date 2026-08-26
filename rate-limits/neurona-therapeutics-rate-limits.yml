@@ -1,0 +1,9 @@
+generated: '2026-08-26'
+method: searched
+source: https://www.neuronatherapeutics.com/
+limit_count: 0
+note: >-
+  No public API exists for this company, so no rate limits are published and none can be observed.
+  Contract discovery (STEP 0b) probed the corporate host for OpenAPI, Swagger, GraphQL, MCP and A2A
+  surfaces and every path returned HTTP 404. Recorded as a measured zero.
+limits: []
