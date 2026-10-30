@@ -64,14 +64,93 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Neurona Therapeutics is a clinical-stage biotherapeutics company in South San Francisco, California,
-developing allogeneic regenerative neural cell therapies for chronic disorders of the nervous system.
-Its lead candidate, NRTX-1001 (rezanecel), is an inhibitory interneuron cell therapy for drug-resistant
-mesial temporal lobe epilepsy. UCB S.A. completed its acquisition of Neurona on June 2, 2026.
+Neurona Therapeutics is a clinical-stage biotherapeutics company in South San Francisco, California, developing allogeneic regenerative neural cell therapies that permanently integrate into neural circuits to treat chronic disorders of the nervous system. Founded on nearly two decades of stem cell research from the University of California, San Francisco, its lead candidate NRTX-1001 (rezanecel) is an inhibitory interneuron cell therapy delivered as a single, minimally invasive dose for drug-resistant mesial temporal lobe epilepsy, and is advancing through the NTE001 and NTE002 studies toward the Phase 3 EPIC trial. UCB completed its acquisition of Neurona on June 2, 2026. The company publishes no public API, developer program, SDK, or machine-readable specification; its public surface is corporate and clinical, not developer-facing.
 
-**No public API surface.** Contract discovery on 2026-08-26 probed the company's only host for OpenAPI,
-Swagger, GraphQL, MCP and A2A agent-card surfaces plus the full `/.well-known/` set; every path returned
-HTTP 404 against a hard-404 origin. This profile records that measured absence.
+**Areas:** Company · Biotechnology · Pharmaceuticals · Cell Therapy · Regenerative Medicine · Neurology · Epilepsy · Clinical Trials · Life Sciences
 
-- https://www.neuronatherapeutics.com/
-- https://forgeglobal.com/neurona-therapeutics_stock/ (secondary-market listing)
+## Neurona Therapeutics on APIs.io
+
+Everything profiled for Neurona Therapeutics is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/neurona-therapeutics/](https://apis.io/providers/neurona-therapeutics/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Neurona Therapeutics Domain Security](https://apis.io/security/neurona-therapeutics/neurona-therapeutics-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Neurona Therapeutics Plans Pricing](https://apis.io/plans/neurona-therapeutics/neurona-therapeutics-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Neurona Therapeutics Rate Limits](https://apis.io/rate-limits/neurona-therapeutics/neurona-therapeutics-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.neuronatherapeutics.com/)
+- [Terms of service](https://www.neuronatherapeutics.com/terms-of-use/)
+- [Privacy policy](https://www.neuronatherapeutics.com/privacy-policy/)
+
+## API Evangelist rating
+
+**Kin Score 9.0** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 49.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 21.1 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.9** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/neurona-therapeutics/](https://apis.io/providers/neurona-therapeutics/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Neurona Therapeutics: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/neurona-therapeutics/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
